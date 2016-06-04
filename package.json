@@ -21,6 +21,8 @@
     "concurrently": "^2.0.0",
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
+    "gulp-typescript": "^2.8.0",
+    "del": "^2.1.0",
     "lite-server": "^2.2.0",
     "typescript": "^1.8.10",
     "typings": "^0.7.12"
