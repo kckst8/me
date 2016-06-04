@@ -36,7 +36,7 @@ gulp.task('copy:libs',['clean'], function() {
 
 /**
  * copy other static files (html, css, etc.)
- * TODO move these to seperate tasks
+ * TODO - move these to seperate tasks
  */
 gulp.task('copy:content',['clean'], function() {
     return gulp.src([
@@ -60,9 +60,10 @@ gulp.task('build', [
     
 /**
  * Push dist build to kckst8.github.io master branch
+ * TODO re-add .git extension
  */
 var options = { 
-    remoteUrl: "https://github.com/kckst8/kckst8.github.io.git",
+    remoteUrl: "https://github.com/kckst8/kckst8.github.io",
     branch: "master"};
 gulp.task('deploy', function () {
     gulp.src("dist/**/*.*")
