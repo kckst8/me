@@ -1,4 +1,32 @@
+.app-main {
+}
 
 .main-header {
-    text-align: center
+    text-align: center;
+}
+
+.social-tile {
+    opacity: 1;
+}
+
+.social-tile :hover {
+    opacity: .75;
+}
+
+.social-container {
+    margin: 0 auto;
+    width: 38%;
+}
+
+.social-img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    opacity: 1;
+    height: 125px;
+}
+
+.social-img :hover {
+    opacity: .75;
 }

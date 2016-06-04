@@ -41,6 +41,7 @@ gulp.task('copy:libs',['clean'], function() {
 gulp.task('copy:content',['clean'], function() {
     return gulp.src([
         'app/**/*', 
+        'content/**/*',
         'index.html', 
         'styles.css', 
         '!app/**/*.ts',
