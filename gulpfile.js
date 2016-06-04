@@ -43,7 +43,8 @@ gulp.task('copy:content',['clean'], function() {
         'app/**/*', 
         'index.html', 
         'styles.css', 
-        '!app/**/*.ts'
+        '!app/**/*.ts',
+        'CNAME'
         ], 
         { base : './' })
         .pipe(gulp.dest('dist'))
