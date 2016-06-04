@@ -5,12 +5,12 @@
     text-align: center;
 }
 
-.social-tile {
+.social-link {
     opacity: 1;
 }
 
-.social-tile :hover {
-    opacity: .75;
+.social-link :hover {
+    opacity: .6;
 }
 
 .social-container {
@@ -28,5 +28,5 @@
 }
 
 .social-img :hover {
-    opacity: .75;
+    opacity: .575;
 }
