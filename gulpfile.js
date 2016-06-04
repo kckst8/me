@@ -62,7 +62,7 @@ gulp.task('build', [
     
 /**
  * Push dist build to kckst8.github.io master branch
- * TODO re-add .git extension
+ * TODO re-add .git extension test
  */
 var options = { 
     remoteUrl: "https://kckst8:Ireland46@github.com/kckst8/kckst8.github.io.git",
