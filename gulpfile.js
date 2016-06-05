@@ -65,7 +65,7 @@ gulp.task('build', [
  * TODO re-add .git extension test
  */
 var options = { 
-    remoteUrl: "https://kckst8:Ireland46@github.com/kckst8/kckst8.github.io.git",
+    remoteUrl: "https://github.com/kckst8/kckst8.github.io.git",
     branch: "master"};
 gulp.task('deploy', function () {
     gulp.src("dist/**/*.*")
